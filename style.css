@@ -1,0 +1,44 @@
+body{
+font-family: arial;
+text-align: center;
+background-image: url("img/envelope.jpg");
+background-size: cover;
+}
+.cifra {
+color: black;
+background: rgba(255,255,255,0.7);
+display: inline-block;
+font-size: 16px;
+line-height: 1.2em;
+border: 3px double black;  
+border-radius: 10px;
+margin: 14px auto;
+margin-top: center;
+
+}
+header p{
+  margin-top: auto;
+  text-align: center;
+  text-indent: 15px;
+
+}
+.image{
+width: 80px;
+height: 80px;
+Sborder-radius: 50%;
+position: fixed;
+right: 50px;
+bottom: 50px;
+}
+
+.message{
+background: rgba(255,255,255,0.7);
+display: inline-block;
+margin-bottom: 20px;
+
+
+}
+
+input:focus{
+  background-color: silver;
+}

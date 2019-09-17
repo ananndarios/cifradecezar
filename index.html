@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Festinha!</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="cifra">
+  <h2> Festa Surpresa Palomita!! </h2><br>
+  <p> <strong>As alunas da Laboratória decidiram marcar uma festinha de niver surpresa para a Palomita,<br>
+    sabendo que seria possível ela descobrir, as alunas decidiram criar um sistema <br>
+    de encriptografia de mensagens.</strong> </p>
+  </header>
+  <form name='cifra'>
+    <div class="message">
+  <br><label for='message'> Digite a sua mensagem:</label><br><br>
+  <input type="text" id="message" name="message">
+</div><br>
+    <div class="message">
+  <br><label for='displacement'> Digite o deslocamento: </label><br><br>
+  <input type="number" id="deslocamento" name="deslocamento">
+</div><br>
+<div>
+  <input type="button" name="button" id="button" value="Cifrar" onclick = "encryptMessage(); return false;">
+  <input type="button" name="button1" id="button1" value="Decifrar" onclick = "decipherMessage(); return false;">
+    </div>
+
+      <img src="img/logo.png" class="image"/>
+
+  </form>
+  </body>
+
+  <script src="http://code.jquery.com/jquery-latest.js"> </script>
+  <script type='text/javascript' src="app.js"> </script>
+</html>
